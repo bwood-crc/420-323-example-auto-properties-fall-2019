@@ -34,7 +34,7 @@ namespace CSharpProperties
         /// Displays information about this object.
         /// </summary>
         /// <returns>Nicely formatted info about this course.</returns>
-        public string printCourseInfo()
+        public override string ToString()
         {
             return string.Format("{0}: {1}", this.CourseCode, this.CourseDescription);
         }

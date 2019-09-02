@@ -16,14 +16,16 @@ namespace CSharpProperties
             s1.Id = 1;
             s1.FirstName = "Brendan";
             s1.LastName = "Wood";
-            Console.WriteLine(s1.getDetails());
+            Console.WriteLine(s1);
+
+            Console.WriteLine();
 
             // Course
             // Note use of "var".
             var c1 = new Course();
-            c1.CourseCode = "420-322";
+            c1.CourseCode = "420-322-LA";
             c1.CourseDescription = "Gaming";
-            Console.WriteLine(c1.printCourseInfo());
+            Console.WriteLine(c1);
         }
     }
 }

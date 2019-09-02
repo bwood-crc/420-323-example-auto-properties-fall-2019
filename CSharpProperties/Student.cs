@@ -23,9 +23,9 @@ namespace CSharpProperties
         /// Get details of the object as a string.
         /// </summary>
         /// <returns>Nicely formatted string, 2 lines.</returns>
-        public string getDetails()
+        public override string ToString()
         {
-            return (string.Format("ID: {0}\nName: {1}, {2}", this.Id, this.LastName, this.FirstName));
+            return(string.Format("ID: {0}\nName: {1}, {2}", this.Id, this.LastName, this.FirstName));
         }
     }
 }
